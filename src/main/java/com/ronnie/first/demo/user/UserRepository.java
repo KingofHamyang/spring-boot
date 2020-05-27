@@ -1,4 +1,4 @@
-package com.ronnie.first.demo;
+package com.ronnie.first.demo.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
