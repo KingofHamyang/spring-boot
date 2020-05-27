@@ -1,13 +1,11 @@
-package com.ronnie.first.demo;
+package com.ronnie.first.tutorial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
-
+class TutorialApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

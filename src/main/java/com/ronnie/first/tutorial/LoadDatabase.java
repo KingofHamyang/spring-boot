@@ -1,6 +1,7 @@
-package com.ronnie.first.demo;
+package com.ronnie.first.tutorial;
 
-import com.ronnie.first.demo.repository.UserRepository;
+import com.ronnie.first.tutorial.entity.User;
+import com.ronnie.first.tutorial.repository.UserRepository;
 
 
 import lombok.extern.slf4j.Slf4j;

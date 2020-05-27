@@ -1,7 +1,7 @@
-package com.ronnie.first.demo.advice;
+package com.ronnie.first.tutorial.advice;
 
 
-import com.ronnie.first.demo.exception.UserNotFoundException;
+import com.ronnie.first.tutorial.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

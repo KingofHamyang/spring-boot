@@ -1,10 +1,10 @@
-package com.ronnie.first.demo.controller;
+package com.ronnie.first.tutorial.controller;
 
 import java.util.List;
 
-import com.ronnie.first.demo.entity.User;
-import com.ronnie.first.demo.exception.UserNotFoundException;
-import com.ronnie.first.demo.repository.UserRepository;
+import com.ronnie.first.tutorial.entity.User;
+import com.ronnie.first.tutorial.exception.UserNotFoundException;
+import com.ronnie.first.tutorial.repository.UserRepository;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

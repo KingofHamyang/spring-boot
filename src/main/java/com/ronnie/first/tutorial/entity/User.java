@@ -1,4 +1,4 @@
-package com.ronnie.first.demo.entity;
+package com.ronnie.first.tutorial.entity;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.ronnie.first.demo.repository;
+package com.ronnie.first.tutorial.repository;
 
-import com.ronnie.first.demo.entity.User;
+import com.ronnie.first.tutorial.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

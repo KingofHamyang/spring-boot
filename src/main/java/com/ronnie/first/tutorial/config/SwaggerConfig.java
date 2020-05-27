@@ -1,4 +1,4 @@
-package com.ronnie.first.demo.config;
+package com.ronnie.first.tutorial.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

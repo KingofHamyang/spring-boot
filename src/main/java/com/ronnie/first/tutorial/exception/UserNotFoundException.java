@@ -1,4 +1,4 @@
-package com.ronnie.first.demo.exception;
+package com.ronnie.first.tutorial.exception;
 
 public class UserNotFoundException extends RuntimeException {
 
