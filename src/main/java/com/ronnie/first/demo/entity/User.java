@@ -1,4 +1,4 @@
-package com.ronnie.first.demo.user;
+package com.ronnie.first.demo.entity;
 
 import lombok.Data;
 

@@ -26,8 +26,6 @@ repositories {
 	mavenCentral()
 }
 
-
-
 dependencies {
 	implementation 'org.postgresql:postgresql'
 	implementation 'org.flywaydb:flyway-core:6.4.2'
