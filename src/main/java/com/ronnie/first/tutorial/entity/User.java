@@ -1,20 +1,24 @@
 package com.ronnie.first.tutorial.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @Entity
-@Table(name = "Users")
+@Table(name = "users")
 public class User {
     private @Id @GeneratedValue Long id;
     private String name;
     private String role;
     private String password;
+
+    @JsonManagedReference
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+    private List<Shop> shops;
 
     public User() {}
 
